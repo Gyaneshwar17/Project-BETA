@@ -15,5 +15,6 @@ for m in range(c):
     f=random.randint(33,49)
     k.append(chr(f))
 random.shuffle(k)
+print("This is your password :")
 for o in k:
     print(o,end="")
